@@ -27,7 +27,7 @@ Our data was collected via Kaggle from the World Health Organization's [Life Exp
 
 
 ### Data Cleaning
-We chose to drop 'Hepatitis B' due to missing values, as well as Country and Year because they were dominating other predictors. We then imputed median for 'schooling,', ''alcohol', 'GDP', and all economic features missing values. We turned our only binary categorical variable 'Status', into 0 or 1 for 'Developing' or 'Developed', and dropped all remaining missing values.
+We chose to drop 'Hepatitis B' due to missing values, as well as Country and Year because they were dominating other predictors. We then imputed median for 'schooling', 'alcohol', 'GDP', and all economic features missing values. We turned our only binary categorical variable 'Status', into 0 or 1 for 'Developing' or 'Developed', and dropped all remaining missing values.
 
 ### Data Exploration
 We noticed immediate strong correlations between the following features and our target variable (lifex): schooling .78, adult_mort -.67, bmi .59, status .51. Scatterplots showed a strong linear relationship with lifex. 

@@ -13,7 +13,7 @@ Brayton Hall, Sailaja Karra
 Our aim was to determine the most important features for anticipating a country's life expectancy. Many features are economic in nature, and determining the most predictive ones may inform more effective resource allocation to increase life expectancy. 
 
 ## Data Collection <a name='data'></a>
-Our data was collected via Kaggle from the World Health Organization's [Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who) dataset under its Global Health Observatory (GHO). Important features among 22 initial indepedent variables include:
+Our data was collected via Kaggle from the World Health Organization's [Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who) dataset under its Global Health Observatory (GHO). Important features among 22 initial independent variables include:
 - schooling
 - adult mortality rate
 - bmi

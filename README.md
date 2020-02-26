@@ -35,7 +35,8 @@ We noticed immediate strong correlations between the following features and our 
 
 ## Model & Results <a name='model'></a>
 We used recursive feature engineering with cross validation, linear regression, Lasso L1, Ridge L2, and GridSearchCV to produce our best model : Ridge L2 (alpha: .01) with a root mean squared error of 3.69, meaning it is, on average, 3.69 days off when predicting the true values. Our residuals from the model are normally distributed and symmetric, indicating that the assumptions of linearity and homoscedasticity are met. 
-![residscatter](residualscatter.png)![residdist](residualdist.png)![qqplot](residqq.png)
+![residscatter](residualscatter.png)![residdist](residualdist.png)
+![qqplot](residqq.png)
 
 ## Regression Analysis
 Recursive feature elimination revealed the most important features in our model, with is the main driving factor for life expectancy. Followed by Schooling and negatively affected by HIV_AIDS.

@@ -31,7 +31,7 @@ We chose to drop 'Hepatitis B' due to missing values, as well as Country and Yea
 
 ### Data Exploration
 We noticed immediate strong correlations between the following features and our target variable (lifex): schooling .78, adult_mort -.67, bmi .59, status .51. Scatterplots showed a strong linear relationship with lifex. 
-![linear_vars](linearity.png)
+![linear_vars](school_bmi_admort.png)
 
 ## Model & Results <a name='model'></a>
 ## Regression Analysis

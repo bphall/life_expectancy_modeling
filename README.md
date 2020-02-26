@@ -8,10 +8,10 @@ Brayton Hall, Sailaja Karra
 
 
 ## Project Goals
-
+Our aim was to determine the most important features for anticipating a country's life expectancy. Many features are economic in nature, and determining the most predictive ones may inform more effective resource allocation to increase life expectancy. 
 
 ## Data Collection 
-
+Our data was collected via Kaggle from the World Health Organization's [Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who) dataset under its Global Health Observatory (GHO). 
 - schooling
 - adult mortality rate
 - bmi

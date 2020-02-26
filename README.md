@@ -42,6 +42,6 @@ We used recursive feature engineering with cross validation, linear regression, 
 ## Regression Analysis
 Recursive feature elimination revealed the most important features in our model, with Income (Composition of Resources) as the main driving factor for life expectancy, followed by Schooling and HIV/AIDS.
 
-## Conclusions <a name='conclusions'></a>
+## Conclusions <a name='concl'></a>
 From our Ridge L2 model, using recursive feature selection, we concluded that the most important features for determining a country's life expectancy are Income (Composition of Resources), Schooling, and HIV/AIDS, though it would be incorrect to conclude that improving these factors automatically increases life expectancy. These features are mostly likely pointers for deeper factors in countries that are more causally related to Life Expectancy, which further research could identify in order to make effective public policy decisions. 
 

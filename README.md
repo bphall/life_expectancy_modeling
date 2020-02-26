@@ -5,12 +5,15 @@
 ### Team Members
 Brayton Hall, Sailaja Karra
 
-
+- [Data](#data)
+- [EDA](#eda)
+- [Model](#model)
+- [Conclusions](#concl)
 
 ## Project Goals
 Our aim was to determine the most important features for anticipating a country's life expectancy. Many features are economic in nature, and determining the most predictive ones may inform more effective resource allocation to increase life expectancy. 
 
-## Data Collection 
+## Data Collection <a name='data'></a>
 Our data was collected via Kaggle from the World Health Organization's [Life Expectancy](https://www.kaggle.com/kumarajarshi/life-expectancy-who) dataset under its Global Health Observatory (GHO). 
 - schooling
 - adult mortality rate
@@ -21,16 +24,16 @@ Our data was collected via Kaggle from the World Health Organization's [Life Exp
 - gdp
 - population
 
-## EDA 
+## EDA <a name='eda'></a>
 ### Data Cleaning
 
 
 ### Data Exploration
 
 
-## Model & Results 
+## Model & Results <a name='model'></a>
 ## Regression Analysis
 
 
-## Conclusions
+## Conclusions <a name='conclusions'></a>
 From our Ridge L2 model, using recursive feature selection, we concluded that the most important features for determining a country's life expectancy is Schooling, Income 

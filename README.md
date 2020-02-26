@@ -1,6 +1,5 @@
 
 # Life Expectancy Project
-**This is the repo for modeling life expectancy data from the World Health Organization. The target variable is life expectancy in years, and the main features include country, GDP, health care spending, disease proportions, BMI index, and population.** 
 
 ### Team Members
 Brayton Hall, Sailaja Karra

@@ -34,7 +34,7 @@ We noticed immediate strong correlations between the following features and our 
 ![linear_vars](school_bmi_admort.png)
 
 ## Model & Results <a name='model'></a>
-We used recursive feature engineering with cross validation, linear regression, Lasso L1, Ridge L2, and GridSearchCV to produce our best model : Ridge L2 (alpha: .01) with a root mean squared error of 3.69, meaning it is, on average, 3.69 days off when predicting the true values. 
+We used recursive feature engineering with cross validation, linear regression, Lasso L1, Ridge L2, and GridSearchCV to produce our best model : Ridge L2 (alpha: .01) with a root mean squared error of 3.69, meaning it is, on average, 3.69 years off when predicting the true values. 
 
 ## Regression Analysis
 Recursive feature elimination revealed the most important features in our model, with Income (Composition of Resources) as the main driving factor for life expectancy, followed by Schooling and HIV/AIDS. Our residuals from the model are normally distributed and symmetric, indicating that the assumptions of linearity and homoscedasticity are met. 
